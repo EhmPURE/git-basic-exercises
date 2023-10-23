@@ -1,0 +1,999 @@
+    5  '#!bin/python' >> script.py
+    6  echo '#!bin/python' >> script.py
+   11  python --help
+   26  :Wq
+   36  ls /etc
+   37  vulkan
+   38  ls /etc/vulkan
+   39  file /etc/vulkan
+   41  ls /etc/vulkan/icd.d
+   42  cat /etc/vulkan/explicit_layer.d
+   43  cd /etc/vulkan/explicit_layer.d
+   49  ls /usr/boot
+   50  file /usr/boot
+   53  ls script.py
+   54  cat script.py
+   67  cd Documents
+   69  file CV_word_done
+   70  file CV_word_done.pdf
+   71  cat CV_word_done.pdf
+   76  cd Desktop
+   78  mv *.docx /Documents
+   80  ls *.docx
+   81  mv  *.docx ~/Documents
+   83  mv *.pdf ~/Documents
+   87  SET
+   95  python script.py
+  102  help
+  103  signin$ help
+  108  mkdir Test.zip
+  109  zip2john Test.zip
+  114  idle3
+  115  idle
+  118  vi script.py
+  126  vi pygametest.py
+  127  python pygametest.py
+  134  git -h
+  139  _i
+  141  sudo apt update firefox
+  144  sudo apt update code
+  146  sudo apt install vscode
+  147  sudo apt install code
+  149  vscode
+  151  exitexit
+  159  mkdir -p ~/miniconda3
+  160  wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda3/miniconda.sh
+  161  bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
+  162  rm -rf ~/miniconda3/miniconda.sh
+  163  ~/miniconda3/bin/conda init bash
+  167  vi
+  173  python
+  180  mkdir WritingAssesment
+  184  bash --help
+  185  ls --help
+  186  bash -c
+  190  wc personal_history.md
+  191  echo 'One Two three' >> count.md
+  192  wc count.md
+  193  wc --help
+  194  wc -w  count.md
+  195  wc -c  count.md
+  196  wc -l  count.md
+  198  cd UMUZI/WritingAssesment
+  206  wc -w career_path.md
+  207  vi career_path.md
+  208  vi free_time.md
+  213  cd WritingAssesment
+  214  vi 
+  215  vi personal_history.md
+  216  wc -w  personal_history.md
+  217  cat personal_history.md
+  218  lswc -w free_time.md 
+  219  wc -w free_time.md 
+  220  vi relevant_experience.md
+  221  wc -w relevant_experience.md
+  225  vi coding_success.md
+  226  wc -w coding_success.md
+  228  vi possible_barriers.md
+  229  wc -w possible_barriers.md
+  230  wq
+  233  sudo apt install git-all
+  236  sudo apt-get install asciidoc xmlto docbook2x
+  239  git config --global user.name '[mpumelelo mfokeng]'
+  240  git config --global user.email '[mpumelelomfokeng@gmail.com]'
+  241  git config --global color.ui auto
+  243  file ~/.bashrc
+  244  cat ~/.bashrc
+  247  cat ~/.bashrc | less
+  251  update
+  260  mv notebook.ipynb ~/UMUZI/EDA
+  263  code-oss notebook.ipynb
+  265  code --enable-proposed-api ms-toolsai.jupyter
+  273  code-oss
+  276  codium
+  277  code-oss --enable-proposed-api ms-toolsai.jupyter
+  279  cd ~/UMUZI/EDA
+  280  jupyter
+  282  ls /
+  285  cd home/kali
+  294  cd /home | ls
+  296  cd home | ls
+  300  mkdir fake_dir/real_dir
+  301  mkdir -p fake_dir/real_dir
+  302  mkdir -h
+  303  mkdir --help
+  304  mkdir -p -v fake2_dir/real2_dir
+  305  rm -R -v fake_dir/real_dir/ 
+  306  rm -R -v fake2_dir/real2_dir/ 
+  309  rm -R -v fake2_dir/
+  311  rm fake_dir
+  323  file home
+  324  cd /home
+  331  cd home
+  333  cd kehnet
+  337  mv python_scripts Documents
+  341  rmdir --help
+  347  cd fkdir
+  355  rm -R fake_dir
+  356  rm -R fk_dr
+  357  rm -R fk_dir
+  358  rm -R fkdir
+  362  mkdir  UMUZI/Beginning_Bash
+  366  git branch -m main
+  367  git config --global init.defaultBranch main
+  369  git add --help
+  370  git pull main
+  371  git remote add origin git@github.com:Umuzi-org/KennethMpumelelo-Mfokeng-394-bash-for-bootcamp-.git
+  381  vi question_1
+  385  git remote pull
+  386  git remote pull main
+  388  git fetch
+  389  vi question_2
+  390  vi question_3
+  391  vi question_4
+  392  vi question_5
+  394  rm question_6
+  395  vi question_6
+  396  vi question_7
+  399  vi question_8
+  407  realpath UMUZI
+  409  cat question_9
+  410  vi question_9
+  411  cat question_10
+  414  cat question_10 | cat question_9
+  416  cat question_10 echo '>>>>>>>>>>>>>>>>' && cat question_9
+  419  cat question_10 && echo '>>>>>>>>>>>>>>>>' && cat question_9
+  420  cat question_10 | echo '\n>>>>>>>>>>>>>>>>\n' && cat question_9
+  421  cat question_10 | echo '>>>>>>>>>>>>>>>>' && cat question_9
+  424  vi question_10
+  426  cat question_10 && cat question_9
+  430  vi question_11
+  439  mv ./Beginning_Bash ./beginning_bash
+  445  ls ./
+  446  cd .
+  450  pwd
+  455  cd ~
+  457  cd /
+  458  cd
+  459  cd UMUZI/Beginning_Bash
+  463  rm fkdir
+  464  rmdir fkdir/secdir
+  466  rm -R fkdir/secdir
+  470  rmdir fkdir
+  474  rmdir -p fkdir
+  478  vi question_12
+  480  man ci
+  483  vi question_13
+  487  mkdir -p fkdir/secdir
+  490  cd fkdir | ls
+  491  cd fkdir && ls
+  494  mkdir secdir
+  499  rmdir -R fkdir
+  500  rmdir -p secdir
+  501  rmdir -p fkdir/secdir
+  506  cd ~/Downloads
+  512  clewr
+  515  cd /home/kehnet
+  519  history
+  520  history | less
+  521  code-oss --enable-proposed-api ms-toolsai.jupyter\n
+  523  cd Downloads
+  525  dpkg --help
+  527  ls 
+  528  sudo dpkg code_1.83.0-1696350811_amd64.deb
+  531  dpkg --help | less
+  532  sudo dpkg -r code-oss
+  533  sudo dpkg -i code_1.83.0-1696350811_amd64.deb
+  540  sudo apt list --upgradable
+  544  reboot
+  545  pip install seaborn
+  548  /bin/python "/home/kehnet/UMUZI/AptitudeAssesment/KennethMpumelelo-Mfokeng-756-contentitem-python/geeky_list = ["Geeky", "GeeksforGeeks", .py"
+  552  cd AptitudeAssesment
+  558  mv 'geeky_list = ["Geeky", "GeeksforGeeks", .py' geek.py
+  561  python geek.py
+  564  nano geek.py
+  567  gst
+  570  vi ~/.bash_aliases
+  584  cd UMUZI/AptitudeAssesment
+  586  cd KennethMpumelelo-Mfokeng-756-contentitem-python
+  592  python task2.py
+  595  
+  596  /bin/python /home/kehnet/UMUZI/AptitudeAssesment/task4.py
+  598  code
+  600  sudo spt update
+  602  python --version
+  606  mkdir CodingChallenges
+  608  mkdir lvl1
+  612  git clone https://github.com/Umuzi-org/KennethMpumelelo-Mfokeng-219-level-1-programming-katas-python.git
+  619  gbr
+  625  git checkout -b task/1
+  627  touch task1.py
+  633  vi ~/.bashrc
+  638  cl
+  641  /bin/python /home/kehnet/UMUZI/CodingChallenges/lvl1/KennethMpumelelo-Mfokeng-219-level-1-programming-katas-python/task1.py
+  646  cd CodingChallenges
+  648  cd lvl1
+  649  mv * ..
+  653  rm -R lvl1
+  660  python task1.py
+  664  git add .
+  665  git commit -m 'multiples'
+  667  git pull task/1
+  675  git checkout -b task/3
+  693  touch task3.py
+  694  git checkout task/2
+  695  clear
+  696  ls
+  697  git checkout task/1
+  698  ls
+  699  git checkout task/3
+  700  ls
+  701  git checkout task/2
+  702  cat task2.py
+  703  rm task3.py
+  704  git status
+  705  git checkout task/1
+  706  ls
+  707  git checkout task/3
+  708  ls
+  709  git checkout task/1
+  710  ls
+  711  rm task3.py
+  712  git push origin task/1
+  713  git checkout task/2
+  714  ls
+  715  git push origin task/2
+  716  clear
+  717  git checkout task/3
+  718  ls
+  719  git branch
+  720  git checkout main
+  721  git pull
+  722  ls
+  723  git checkout task/1
+  724  ls
+  725  git checkout task/3
+  726  clear
+  727  ls
+  728  touch task3.py
+  729  git checkout task/1
+  730  ls
+  731  git checkout task/3
+  732  clear
+  733  ls
+  734  python task3.py
+  735  cleawr
+  736  clear
+  737  git status
+  738  git add task/3
+  739  git add task3.py
+  740  git commit -m 'is_sixty_five'
+  741  git push origin task/3
+  742  clear
+  743  git branch
+  744  ls
+  745  git checkout task/2
+  746  ls
+  747  git checkout task/1
+  748  ls
+  749  clear
+  750  ls
+  751  git checkout main
+  752  git pull
+  753  git checkout task/4
+  754  git checkout -b task/4
+  755  ls
+  756  rm task3.py
+  757  git branch
+  758  ls
+  759  touch task4.py
+  760  clear
+  761  python task4.py
+  762  clear
+  763  ls
+  764  git add task4.py
+  765  git commit -m 'square'
+  766  git push origin task/4
+  767  git checkout main
+  768  git pull
+  769  clear
+  770  git checkout -b task/5
+  771  ls
+  772  touch task5.py
+  773  git checkout -b task/4
+  774  git checkout task/4
+  775  cat task4.py
+  776  git checkout task/5
+  777  clear
+  778  python task5.py
+  779  clear
+  780  python task5.py
+  781  clear
+  782  python task5.py
+  783  clear
+  784  python task5.py
+  785  clear
+  786  python task5.py
+  787  clear
+  788  python task5.py
+  789  clear
+  790  ls
+  791  git add task5.py
+  792  clear
+  793  ls
+  794  git status
+  795  git push origin task/5
+  796  clear
+  797  git status
+  798  git commit -m 'triangle'
+  799  clear
+  800  ls
+  801  git log
+  802  clear
+  803  ls
+  804  git status
+  805  clear
+  806  cd ../CodingChallenges
+  807  clear
+  808  ls
+  809  cd KennethMpumelelo-Mfokeng-219-level-1-programming-katas-python
+  810  ls
+  811  git status
+  812  clear
+  813  python task6.py
+  814  clear
+  815  python task6.py
+  816  clear
+  817  python task6.py
+  818  clear
+  819  python task6.py
+  820  clear
+  821  python task6.py
+  822  clear
+  823  python task6.py
+  824  clear
+  825  python task6.py
+  826  clear
+  827  python task6.py
+  828  clear
+  829  ls
+  830  clear
+  831  python task6.py
+  832  clear
+  833  python task6.py
+  834  clear
+  835  python task6.py
+  836  clear
+  837  python task6.py
+  838  clear
+  839  python task6.py
+  840  clear
+  841  python task6.py
+  842  clear
+  843  python task6.py
+  844  clear
+  845  git status
+  846  git add task6.py
+  847  clear
+  848  git status
+  849  clear
+  850  python task6.py
+  851  git status
+  852  git add task6.py
+  853  clear
+  854  ls
+  855  git status
+  856  git commit -m 'longest'
+  857  clear
+  858  git push origin task/6
+  859  git checkout main
+  860  git pul
+  861  git pull
+  862  clear
+  863  git checkout -b task/7
+  864  touch task7.py
+  865  clear
+  866  python task7.py
+  867  clear
+  868  python task7.py
+  869  clear
+  870  python task7.py
+  871  clear
+  872  python task7.py
+  873  clear
+  874  python task7.py
+  875  clear
+  876  python task7.py
+  877  clear
+  878  python task7.py
+  879  clear
+  880  python task7.py
+  881  clear
+  882  python task7.py
+  883  clear
+  884  python task7.py
+  885  clear
+  886  python task7.py
+  887  clear
+  888  python task7.py
+  889  clear
+  890  python task7.py
+  891  clear
+  892  python task7.py
+  893  clear
+  894  python task7.py
+  895  clear
+  896  python task7.py
+  897  clear
+  898  python task7.py
+  899  clear
+  900  python task7.py
+  901  clear
+  902  python task7.py
+  903  clear
+  904  python task7.py
+  905  clear
+  906  python task7.py
+  907  clear
+  908  python task7.py
+  909  clear
+  910  python task7.py
+  911  clear
+  912  python task7.py
+  913  clear
+  914  python task7.py
+  915  clear
+  916  ls
+  917  git status
+  918  git add task7.py
+  919  clear
+  920  python task7.py
+  921  git status
+  922  git add task7.py
+  923  git commit -m 'combine'
+  924  git push origin task/7
+  925  git checkout main
+  926  git pull
+  927  exit
+  928  sudo apt update
+  929  clear
+  930  ls
+  931  cleawr
+  932  clear
+  933  filemanager
+  934  cleawr
+  935  clear
+  936  exit
+  937  ahutdown
+  938  shutdown
+  939  cd UMUZI/
+  940  ls
+  941  cd Beginning_Bash
+  942  clear
+  943  ls
+  944  cat question_12
+  945  clear
+  946  man rm
+  947  man rmdir
+  948  man rm
+  949  exit
+  950  mkdir a
+  951  mkdir a/b
+  952  mkdir a/b/c
+  953  rmdir -p a
+  954  rm -R a
+  955  mkdir a/b/c
+  956  mkdir a
+  957  mkdir a/b
+  958  mkdir a/b/c
+  959  cd a/b
+  960  git init
+  961  cd ../..
+  962  clear
+  963  rm -p a
+  964  exit
+  965  mkdir a
+  966  ls
+  967  cd a
+  968  ls
+  969  cd c
+  970  ls
+  971  mkdir c
+  972  cd c
+  973  cd ..
+  974  ls
+  975  mrdir c
+  976  rmdir c
+  977  ls
+  978  clear
+  979  ls
+  980  cd b
+  981  mkdir c
+  982  ls
+  983  cd c
+  984  touch useless.md
+  985  cd ../../..
+  986  rm -R a
+  987  ls
+  988  man cp
+  989  clear
+  990  exit
+  991  ls
+  992  cd UMUZI/EDA
+  993  ls
+  994  cd KennethMpumelelo-Mfokeng-648-bootcamp-exploratory-data-analysis-python
+  995  clear
+  996  ls
+  997  cat requirements.txt
+  998  exit
+  999  cd UMUZI/EDA/KennethMpumelelo-Mfokeng-648-bootcamp-exploratory-data-analysis-python/notebook
+ 1000  jupyter-notebook
+ 1001  clear
+ 1002  git status
+ 1003  git add eda.ipynb
+ 1004  git commit -m 'address review feedback'
+ 1005  clear
+ 1006  git status
+ 1007  git add ../requirements.txt
+ 1008  git commit -m 'address review feedback'
+ 1009  clear
+ 1010  git branch
+ 1011  git push origin eda
+ 1012  clear
+ 1013  /bin/python /home/kehnet/UMUZI/CodingChallenges/KennethMpumelelo-Mfokeng-219-level-1-programming-katas-python/task1.py
+ 1014  git status
+ 1015  clear
+ 1016  git status
+ 1017  exit
+ 1018  /bin/python
+ 1019  clear
+ 1020  git status
+ 1021  cd ../CodingChallenges
+ 1022  clear
+ 1023  ls
+ 1024  cd KennethMpumelelo-Mfokeng-219-level-1-programming-katas-python
+ 1025  git branch
+ 1026  git status
+ 1027  python task7.py
+ 1028  clear
+ 1029  python task7.py
+ 1030  clear
+ 1031  pyththon task7.py
+ 1032  python task7.py
+ 1033  clear
+ 1034  git add task7.py
+ 1035  git commit -m 'address review feedback'
+ 1036  git push origin task/7
+ 1037  clear
+ 1038  git push origin task/7
+ 1039  clear
+ 1040  git status
+ 1041  git log
+ 1042  clear
+ 1043  git push origin task/7
+ 1044  git checkout main
+ 1045  git pull
+ 1046  clear
+ 1047  cd UMUZI
+ 1048  clear
+ 1049  ls
+ 1050  cd git_tutorial
+ 1051  ls
+ 1052  cat README.md
+ 1053  cd my-repo
+ 1054  ls
+ 1055  clear
+ 1056  ls
+ 1057  cd ..
+ 1058  clear
+ 1059  ls
+ 1060  cd ..
+ 1061  ls
+ 1062  rm -R git_tutorial
+ 1063  clera
+ 1064  clear
+ 1065  ls
+ 1066  mv *.png ~/Pictures
+ 1067  ls
+ 1068  mv Beginning_Bash BeginningBash
+ 1069  ls
+ 1070  mkdir TildeProjectTutorial
+ 1071  mv important.md TildeProjectTutorial
+ 1072  ls
+ 1073  mkdir GitBasicExercises
+ 1074  clear
+ 1075  ls
+ 1076  cd GitBasicExercises
+ 1077  mkdir git-basic-exercises
+ 1078  cd git-basic-exercises
+ 1079  clear
+ 1080  ls -a
+ 1081  gi
+ 1082  clear
+ 1083  git init
+ 1084  ls -a
+ 1085  git status
+ 1086  touch README.md
+ 1087  ls -a | git status
+ 1088  clear
+ 1089  git status | ls -a
+ 1090  git status && ls -a
+ 1091  clea
+ 1092  clear
+ 1093  ls -a && git status
+ 1094  git log
+ 1095  git add README.md
+ 1096  clear
+ 1097  git status
+ 1098  git add README.md
+ 1099  git status
+ 1100  git rm --cached README.md
+ 1101  git status
+ 1102  clear
+ 1103  git add README.md
+ 1104  git commit -m 'initial commit'
+ 1105  clear
+ 1106  git log
+ 1107  nano README.md
+ 1108  cat README.md
+ 1109  git status
+ 1110  git commit -m 'second commit'
+ 1111  clear
+ 1112  git add README.md
+ 1113  git commit -m 'second commit'
+ 1114  vi README.md
+ 1115  clear
+ 1116  git add README.md
+ 1117  git commit -m 'third commit'
+ 1118  git log
+ 1119  clear
+ 1120  git checkout a2b4fc3c8c9925c0c831e85087b6ad79055a7be5
+ 1121  cat README.md
+ 1122  git checkout main
+ 1123  cat README.md
+ 1124  clear
+ 1125  git branch
+ 1126  git branch milkshake-flavours
+ 1127  git branch
+ 1128  git checkout milkshake-flavours
+ 1129  clear
+ 1130  git branch
+ 1131  nano milkshakes.md
+ 1132  git status
+ 1133  git add milkshakes.md
+ 1134  git commit -m 'added initial flavours'
+ 1135  clear
+ 1136  git log
+ 1137  git checkout main
+ 1138  git log
+ 1139  git branch history
+ 1140  git branch
+ 1141  git switch history
+ 1142  clear
+ 1143  git log
+ 1144  git branch
+ 1145  history > history.txt
+ 1146  clear
+ 1147  cat history
+ 1148  cat history.txt
+ 1149  cat history.txt | less
+ 1150  clear
+ 1151  git log
+ 1152  git status
+ 1153  git commit -am 'added history'
+ 1154  clear
+ 1155  git commit --help
+ 1156  clear
+ 1157  git commit -a
+ 1158  git add history.txt
+ 1159  git commit -m 'added history'
+ 1160  clear
+ 1161  git log
+ 1162  clear
+ 1163  ls
+ 1164  git switch milkshake-flavours && git log
+ 1165  vi README.md
+ 1166  clear
+ 1167  git status
+ 1168  git add README.md
+ 1169  git commit -m 'random readme changes'
+ 1170  clear
+ 1171  git checkout history
+ 1172  cat README.md
+ 1173  rm README.md
+ 1174  echo 'booya' > README.md
+ 1175  git add README.md
+ 1176  git commit -m 'rewrote readme'
+ 1177  clear
+ 1178  git checkout main
+ 1179  clear
+ 1180  ls
+ 1181  git log
+ 1182  git checkout milkshake-flavours
+ 1183  ls
+ 1184  git log
+ 1185  git checkout history
+ 1186  ls
+ 1187  git log
+ 1188  clear
+ 1189  git checkout main
+ 1190  git merger milkshake-flavours
+ 1191  clear
+ 1192  git merge milkshake-flavours
+ 1193  ls
+ 1194  git log
+ 1195  git merge history
+ 1196  cat README.md
+ 1197  clear
+ 1198  cat README.md
+ 1199  clear
+ 1200  ls
+ 1201  git branch
+ 1202  clea
+ 1203  r
+ 1204  clea
+ 1205  git merge history
+ 1206  vim README.md
+ 1207  clear
+ 1208  git merge history
+ 1209  cat README.md
+ 1210  vim README.md
+ 1211  git merge history
+ 1212  git status
+ 1213  git add README.md
+ 1214  git commit -m 'resolve merge conflict'
+ 1215  git merge history
+ 1216  clear
+ 1217  git log
+ 1218  git checkout history
+ 1219  git log
+ 1220  git checkout milkshake-flavours
+ 1221  clear
+ 1222  git log
+ 1223  clear
+ 1224  git checkout main
+ 1225  git checkout history
+ 1226  git merge main
+ 1227  git log
+ 1228  git checkout main
+ 1229  clear
+ 1230  git log
+ 1231  git checkout history
+ 1232  git log
+ 1233  git branch\\n
+ 1234  clear
+ 1235  git checkout main
+ 1236  git log
+ 1237  clear
+ 1238  git log
+ 1239  git branch
+ 1240  clear
+ 1241  git switch history
+ 1242  git log
+ 1243  git branch
+ 1244  clear
+ 1245  git switch main
+ 1246  git log
+ 1247  exit
+ 1248  cd UMUZI/GitBasicExercises/git-basic-exercises
+ 1249  git log
+ 1250  git branch
+ 1251  git log
+ 1252  git branch
+ 1253  git remote add origin https://github.com/EhmPURE/git-basic-exercises.git\ngit branch -M main\ngit push -u origin main
+ 1254  clear
+ 1255  cd UMUZI
+ 1256  vim token.sh
+ 1257  chmod +x token.sh
+ 1258  ./token.sh
+ 1259  clear
+ 1260  ./token.sh
+ 1261  sudo apt update
+ 1262  clear
+ 1263  cat token.sh
+ 1264  exit
+ 1265  cat UMUZI/token.sh
+ 1266  cd UMUZI/GitBasicExercises/git-basic-exercises
+ 1267  clear
+ 1268  git remote add origin https://github.com/EhmPURE/git-basic-exercises.git\ngit branch -M main\ngit push -u origin main
+ 1269  git switch history
+ 1270  git push origin origin
+ 1271  git push origin history
+ 1272  git push origin milkshake-flavours
+ 1273  cd ../
+ 1274  clear
+ 1275  git clone https://github.com/Umuzi-org/a-repo-to-clone.git
+ 1276  cd a-repo-to-clone
+ 1277  git branch
+ 1278  git log
+ 1279  git branch -a
+ 1280  git switch a-branch-with-a-few-commits
+ 1281  git log
+ 1282  git remote -v
+ 1283  git log
+ 1284  cd ../git-basic-exercises
+ 1285  git log
+ 1286  clear
+ 1287  cd ..
+ 1288  mkdir this-will-be-another-repo
+ 1289  cd this-will-be-another-repo
+ 1290  git init
+ 1291  touch README.md
+ 1292  git add README.md
+ 1293  git commit -m 'initial commit'
+ 1294  git log
+ 1295  cd ../git-basic-exercises
+ 1296  git log
+ 1297  touch ignore-me.db
+ 1298  git status
+ 1299  nano .gitignore
+ 1300  git status
+ 1301  mkdir large-directory-that-should-be-local-only
+ 1302  cd large-directory-that-should-be-local-only
+ 1303  echo 'hulabaloo over to you' > README.md
+ 1304  cd ...
+ 1305  git status
+ 1306  clear
+ 1307  cd ..
+ 1308  git status
+ 1309  nano .gitignore
+ 1310  git status
+ 1311  git add .gitignore
+ 1312  git commit -m 'added .gitignore'
+ 1313  git status
+ 1314  git checkout 41bb5ec
+ 1315  clear
+ 1316  git branch
+ 1317  git switch history
+ 1318  git log
+ 1319  clear
+ 1320  git status
+ 1321  git log
+ 1322  git checkout 6d5bbbd704d72716ec9614d850100e0490fc0a96
+ 1323  clear
+ 1324  git log
+ 1325  git checkout main
+ 1326  clear
+ 1327  git branch history
+ 1328  git log
+ 1329  git branch
+ 1330  clear
+ 1331  git branch
+ 1332  clear
+ 1333  ls
+ 1334  ls -al
+ 1335  clear
+ 1336  git status
+ 1337  cd large-directory-that-should-be-local-only
+ 1338  ls
+ 1339  clear
+ 1340  nano .gitignore
+ 1341  git status
+ 1342  clear
+ 1343  ls
+ 1344  ls -al
+ 1345  mv .gitignore ..
+ 1346  clear
+ 1347  cd ..
+ 1348  git status
+ 1349  clear
+ 1350  git add .gitignore
+ 1351  clear
+ 1352  git commit -m 'added .gitignore'
+ 1353  clear
+ 1354  git branch
+ 1355  git push origin main
+ 1356  clear
+ 1357  git push origin main
+ 1358  clear
+ 1359  exit
+ 1360  shutdown
+ 1361  cd UMUZI/
+ 1362  ls
+ 1363  cat token.sh
+ 1364  clear
+ 1365  exit
+ 1366  sudo apt update
+ 1367  clear
+ 1368  exit
+ 1369  sudo apt update
+ 1370  cd UMUZI/
+ 1371  clear
+ 1372  ls
+ 1373  cd GitBasicExercises
+ 1374  ls
+ 1375  git log --graph
+ 1376  cd git-basic-exercises
+ 1377  git log --graph
+ 1378  cat .gitignore
+ 1379  git status
+ 1380  git commit -am 'added .gitignore'
+ 1381  git add .gitignore
+ 1382  git commit -am 'added .gitignore'
+ 1383  clear
+ 1384  git branch
+ 1385  git status
+ 1386  git push origin main
+ 1387  git branch
+ 1388  git checkout milkshake-flavours
+ 1389  git status
+ 1390  exit
+ 1391  cat token.sh
+ 1392  ls
+ 1393  cat UMUZI/token.sh
+ 1394  shutdown
+ 1395  cd UMUZI/GitBasicExercises/git-basic-exercises
+ 1396  clear
+ 1397  git branch
+ 1398  git log
+ 1399  git checkout main
+ 1400  git log
+ 1401  clear
+ 1402  ls
+ 1403  rm -rf .git
+ 1404  cd ..
+ 1405  rm -R git-basic-exercises
+ 1406  clear
+ 1407  ls
+ 1408  rm -R a-repo-to-clone this-will-be-another-repo
+ 1409  cd a-repo-to-clone
+ 1410  rm -rf .git
+ 1411  cd ../this-will-be-another-repo
+ 1412  rm -rf .git
+ 1413  clear
+ 1414  cd ..
+ 1415  ls
+ 1416  rm -R a-repo-to-clone this-will-be-another-repo
+ 1417  clear
+ 1418  ls
+ 1419  git branch
+ 1420  clear
+ 1421  mkdir git-basic-exercises
+ 1422  cd git-basic-exercises
+ 1423  clear
+ 1424  ls -al
+ 1425  git init
+ 1426  touch README.md
+ 1427  git log
+ 1428  clear
+ 1429  git add README.md
+ 1430  git commit -am 'initial commit'
+ 1431  git log
+ 1432  clear
+ 1433  nano README.md
+ 1434  cat README.md
+ 1435  git -am 'second commit'
+ 1436  git commit -am 'second commit'
+ 1437  nano README.md
+ 1438  clear
+ 1439  git log
+ 1440  git commit -am 'third commit'
+ 1441  clear
+ 1442  git log
+ 1443  git checkout a5660c29ff433dd05aa71a730d5888ada30f7d19
+ 1444  clear
+ 1445  cat README.md
+ 1446  git checkout main
+ 1447  clear
+ 1448  cat README.md
+ 1449  clear
+ 1450  git log
+ 1451  git branch
+ 1452  git branch milkshake-flavours
+ 1453  clear
+ 1454  git branch
+ 1455  git switch milkshake-flavours && git log
+ 1456  git branch
+ 1457  clear
+ 1458  nano milkshakes.md
+ 1459  clear
+ 1460  git status
+ 1461  git add milkshakes.md
+ 1462  git commit -m 'added initial flavours'
+ 1463  git branch
+ 1464  git log
+ 1465  git switch main
+ 1466  git log
+ 1467  git checkout -b history
+ 1468  git log
+ 1469  git branch
